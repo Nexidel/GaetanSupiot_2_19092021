@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Reservia</title>
+    <!-- Font Awesome (Autorisé dans énoncé) -->
+    <!-- Option JavaScript pour Font Awesome -->
+    <!-- <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script> -->
+
+    <!--  <link rel="stylesheet" href="lien css de font awesome"> -->
+    <link rel="stylesheet" href="./css/sytle.css"> <!-- css version Laptop -->
+    <link rel="stylesheet" media="screen and (max-width: 720px)" href="./css/style-small.css"> <!-- css version Smartphone -->
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="./css/style-medium.css"> <!-- css version Tablette -->
+    <!-- 4 Taille donc faire une autres encore plus grand "XL" -->
+    <link rel="shortcut icon" href="./ico/Reservia.svg">
+    <!-- Librairie Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+    <header>
+        <div class="headerLogo">
+            <a href="Reservia" class="logo">
+                <img src="./ico/Reservia@3x.png" alt="Reservia" title="Reservia">
+            </a>
+        </div><a href="Reservia" class="logo">
+        </a>
+        <div><a href="Reservia" class="logo">
+            </a><a class="inscription" href="#">S'inscrire</a> <!-- Lien vers page inexsitante : href="#" -->
+        </div>
+        <nav>
+            <ul class="nav">
+                <li><a href="hebergements">Hébergements</a></li>
+                <li><a href="activites">Activités</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Touvez votre hébergement pour des vacances de rêve</h2>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            <form class="search"> <!-- Si problème: https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/search -->
+                <span>
+                    <i class="fas fa-map-marker-alt"></i> <!-- Font Awesome Icon -->
+                </span>
+                <input class="inputSearch" placeholder="Marseille, France">
+                <button class="buttonSearch">
+                    <i class="fas fa-search"></i>
+                    <span class="buttonSearchLaptop">Rechercher</span>
+                </button>
+            </form>
+            <div>
+                <h3>Filtres</h3>    <!-- Check aria-hidden / trouvé ça lors de la récup du fichier-->
+                <button class="fas fa-money-bill-wave">Economique</button>
+                <button class="fas fa-child">Familial</button>
+                <button class="fas fa-heart">Romantique</button>
+                <button class="fas fa-dog">Animaux autorisés</button>
+            </div>
+            <di>
+                <i class="fas fa-info-circle"></i> <!-- Pas le bon icone mais pas accès à l'autre version pro Font Awesome -->
+                <span>Plus de 500 logements sont disponnible dans cette ville</span>
+            </di>
+        </section>
+
+        <section> <!-- Les plus populaires en 1er car MobileFirst -->
+            <div>
+                <h1 class="fas fa-chart-line">Les plus populaires</h1>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+
+</html>
