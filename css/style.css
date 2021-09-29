@@ -1,3 +1,79 @@
-body{
-    font-family: Raleway;
+/*** Body Styling ***/
+
+body {
+    font-family: Raleway, sans-serif;
+    width: 100%;
+}
+
+
+/*** Header ***/
+
+.headerLogo {
+    float: left;
+}
+
+.logo img {
+    width: 100px;
+    height: 50px;
+}
+
+ul {
+    float: right;
+}
+
+.nav a {
+    color: black;
+    margin-right: 65px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header li {
+    display: inline;
+    padding: 20px;
+}
+
+
+/*** main ***/
+
+.firstSection {
+    margin-top: 70px;
+}
+
+.populaire {
+    float: right;
+    background: #f2f2f2;
+    padding-bottom: 0.5rem;
+    margin: 0 65px 15px 0;
+    border-radius: 1rem 1rem 1rem 1rem;
+    width: 100%;
+    width: 450px;
+}
+
+#titlePopulaire {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5em;
+}
+
+.populaire img {
+    float: left;
+    border-radius: 1rem 0 0 1rem;
+    object-fit: cover;
+    overflow: hidden;
+    height: 8rem;
+    width: 30%;
+}
+
+.populaire article {
+    box-shadow: 0 0 10px #0000002e;
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2.5rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: #fff;
 }
