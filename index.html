@@ -10,15 +10,18 @@
     <!-- <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script> -->
 
     <!--  <link rel="stylesheet" href="lien css de font awesome"> -->
-    <link rel="stylesheet" href="./css/style.css"> <!-- css version Laptop -->
-    <link rel="stylesheet" media="screen and (max-width: 720px)" href="./css/style-small.css"> <!-- css version Smartphone -->
-    <link rel="stylesheet" media="screen and (max-width: 900px)" href="./css/style-medium.css"> <!-- css version Tablette -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- css version Laptop -->
+    <link rel="stylesheet" media="screen and (max-width: 720px)" href="./css/style-small.css">
+    <!-- css version Smartphone -->
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="./css/style-medium.css">
+    <!-- css version Tablette -->
     <!-- 4 Taille donc faire une autres encore plus grand "XL" -->
     <link rel="shortcut icon" href="./ico/Reservia.svg">
     <!-- Police Raleway -->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- Librairie Font Awesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 </head>
 
@@ -30,22 +33,27 @@
             </a>
         </div>
         <div>
-            </a><a class="inscription" href="#">S'inscrire</a> <!-- Lien vers page inexistante : href="#" -->
+            <nav>
+                <ul class="nav">
+                    <li><a href="hebergements">Hébergements</a></li>
+                    <li><a href="activites">Activités</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="nav">
-                <li><a href="hebergements">Hébergements</a></li>
-                <li><a href="activites">Activités</a></li>
-            </ul>
-        </nav>
+        <div>
+            <a class="inscription" href="#"><strong>S'inscrire</strong></a>
+            <!-- Lien vers page inexistante : href="#" -->
+        </div>
+        </div>
     </header>
     <main>
-        <section>
+        <section class="firstSection">
             <div>
                 <h2>Touvez votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
-            <form class="search"> <!-- Si problème: https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/search -->
+            <form class="search">
+                <!-- Si problème: https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/search -->
                 <span>
                     <i class="fas fa-map-marker-alt"></i> <!-- Font Awesome Icon -->
                 </span>
@@ -56,61 +64,73 @@
                 </button>
             </form>
             <div>
-                <h3>Filtres</h3>    <!-- Check aria-hidden / trouvé ça lors de la récup du fichier-->
+                <h3>Filtres</h3>
+                <!-- Check aria-hidden / trouvé ça lors de la récup du fichier-->
                 <button class="fas fa-money-bill-wave">Economique</button>
                 <button class="fas fa-child">Familial</button>
                 <button class="fas fa-heart">Romantique</button>
                 <button class="fas fa-dog">Animaux autorisés</button>
             </div>
             <di>
-                <i class="fas fa-info-circle"></i> <!-- Pas le bon icone mais pas accès à l'autre version pro Font Awesome -->
+                <i class="fas fa-info-circle"></i>
+                <!-- Pas le bon icone mais pas accès à l'autre version pro Font Awesome -->
                 <span>Plus de 500 logements sont disponnible dans cette ville</span>
             </di>
         </section>
 
-        <section> <!-- Les plus populaires en 1er car MobileFirst -->
+        <section class="populaire">
+            <!-- Les plus populaires en 1er car MobileFirst -->
             <div>
-                <h1 class="fas fa-chart-line">Les plus populaires</h1>
-                <div>
+                <div id="titlePopulaire">
+                    <h1>Les plus populaires</h1>
+                    <a href="#" class="fas fa-chart-line black"></a>
+                </div>
+                <article>
                     <img src="./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" title="Hôtel Le soleil du matin">
-                    <h3>Hôtel Le soleil du matin</h3>
-                    <p>Nuit à partir de 128€</p>
-                    <span>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </span>
-                </div>
-                <div>
+                    <div class="infos">
+                        <h3>Hôtel Le soleil du matin</h3>
+                        <p>Nuit à partir de 128€</p>
+                        <span>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span>
+                    </div>
+                </article>
+                <article>
                     <img src="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au cœur de l'eau Chambres d'hôtes" title="Au cœur de l'eau Chambres d'hôtes">
-                    <h3>Au cœur de l'eau Chambres d'hôtes</h3>
-                    <p>Nuit à partir de 71€</p>
-                    <span>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </span>
-                </div>
-                <div>
+                    <div class="infos">
+                        <h3>Au cœur de l'eau Chambres d'hôtes</h3>
+                        <p>Nuit à partir de 71€</p>
+                        <span>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                </article>
+                <article>
                     <img src="./images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" title="Hôtel Tout bleu et Blanc">
-                    <h3>Hôtel Tout bleu et Blanc</h3>
-                    <p>Nuit à partir de 68€</p>
-                    <span>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </span>
-                </div>
+                    <div class="infos">
+                        <h3>Hôtel Tout bleu et Blanc</h3>
+                        <p>Nuit à partir de 68€</p>
+                        <span>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                </article>
             </div>
         </section>
-            
-        <section>
+
+        <section class="Hebergements">
             <div>
                 <h1>Hébergements à Marseille</h1>
                 <div>
@@ -189,7 +209,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="activites">
             <h1>Activités à Marseille</h1>
             <div>
                 <img src="./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" title="Vieux Port">
