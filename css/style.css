@@ -1,47 +1,82 @@
-/* Faire Header Footer pour la semaine pro */
-
-
-/*** Body Styling ***/
-
-body {
-    font-family: Raleway, sans-serif;
-    width: 100%;
-}
-
-
-/*** Header ***/
-
-.headerLogo {
-    float: left;
-}
-
-.logo img {
-    width: 200px;
-    height: 100px;
-}
-
-ul {
-    float: right;
-}
-
-.nav a {
-    color: black;
-    margin-right: 65px;
-}
-
-header a {
-    text-decoration: none;
-}
-
-header li {
-    display: inline;
-    padding: 20px;
-}
-
-
-/*** main ***/
-
-.firstSection {
+    /* Faire Header Footer pour la semaine pro */
+    /*** Body Styling ***/
+    
+    body {
+        font-family: Raleway, sans-serif;
+        margin: 0;
+        /* Faire un reset ? */
+    }
+    /****************** Header ******************/
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 35px;
+        margin-left: 60px;
+    }
+    
+    .headerLogo {
+        display: block;
+        width: auto;
+    }
+    
+    nav {
+        margin-left: auto;
+        width: 25%;
+    }
+    
+    nav a {
+        color: #000;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+    }
+    
+    nav a:hover {
+        color: #0065fc;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    nav li {
+        width: 50%;
+        text-align: center;
+    }
+    
+    nav li:hover {
+        border-top: 3px solid #0065fc;
+        border-bottom: 0px;
+    }
+    
+    .navActive a {
+        color: #0065fc;
+    }
+    
+    .signin {
+        display: block;
+        margin-right: 130px;
+        margin-left: 30px;
+        color: #0065fc;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15px;
+    }
+    /****************** main ******************/
+    
+    main {
+        margin-left: 60px;
+    }
+    
+    main img {
+        /* Pour qu'elle soit petite lors du codage CSS Header & Footer */
+        width: 10%;
+    }
+    /* .firstSection {
     margin-top: 70px;
 }
 
@@ -79,4 +114,29 @@ header li {
     margin-right: 2.5rem;
     border-radius: 1rem 1rem 1rem 1rem;
     background-color: #fff;
-}
+} */
+    /****************** Footer ******************/
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f2f2f2;
+    }
+    
+    footer ul {
+        margin-right: 150px;
+        list-style: none;
+        margin-left: 60px;
+        padding-bottom: 30px;
+        width: 80%;
+    }
+    
+    footer li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: black;
+    }

@@ -26,24 +26,21 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="headerLogo">
-            <a href="Reservia" class="logo">
-                <img src="./logo/Reservia@3x.png" alt="Reservia" title="Reservia">
+            <a href="Reservia">
+                <img src="./assets/logo/Reservia.svg" alt="Reservia" title="Reservia">
             </a>
         </div>
+        <nav>
+            <ul>
+                <!-- Lien vers page inexistante : href="#" -->
+                <li class="navActive"><a href="#">Hébergements</a></li>
+                <li><a href="#">Activités</a></li>
+            </ul>
+        </nav>
         <div>
-            <nav>
-                <ul class="nav">
-                    <li><a href="hebergements">Hébergements</a></li>
-                    <li><a href="activites">Activités</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <a class="inscription" href="#"><strong>S'inscrire</strong></a>
-            <!-- Lien vers page inexistante : href="#" -->
-        </div>
+            <a class="signin" href="#"><strong>S'inscrire</strong></a>
         </div>
     </header>
     <main>
@@ -51,7 +48,7 @@
         <section class="firstSection">
             <div>
                 <h2>Touvez votre hébergement pour des vacances de rêve</h2>
-                <p>En plein centre ville ou en pleine nature</p>
+                <li></li>En plein centre ville ou en pleine nature</p>
             </div>
             <form class="search">
                 <!-- Si problème: https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/search -->
@@ -239,19 +236,29 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <h3>A propos</h3>
-            <p>Fonctionnement du site<br> Conditions générales de vente <br>Données et confidentialité</p>
-        </div>
-        <div>
-            <h3>Nos hébergements</h3>
-            <p>Charte qualité<br> Soumettre votre hôtel</p>
-        </div>
-        <div>
-            <h3>Assitance</h3>
-            <p>Centre d'aide<br> Nous contacter</p>
-        </div>
+    <footer class="footer">
+        <ul>
+            <li>
+                <h3>A propos</h3>
+            </li>
+            <li><a href="#"> Fonctionnement du site</a></li>
+            <li><a href="#">Conditions générales de vente</a></li>
+            <li><a href="#">Données et confidentialité</a></li>
+        </ul>
+        <ul>
+            <li>
+                <h3>Nos hébergements</h3>
+            </li>
+            <li><a href="#">Charte qualité</a></li>
+            <li><a href="#">Soumettre votre hôtel</a></li>
+        </ul>
+        <ul>
+            <li>
+                <h3>Assitance</h3>
+            </li>
+            <li><a href="#">Centre d'aide</a></li>
+            <li><a href="#">Nous contacter</a></li>
+        </ul>
     </footer>
 </body>
 
