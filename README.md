@@ -3,3 +3,5 @@ Projet 2 OpenClassrooms
 
 Transformer une maquette en site web
 <br> Date de début : 19/09/2021
+
+https://nexidel.github.io/GaetanSupiot_2_19092021/
