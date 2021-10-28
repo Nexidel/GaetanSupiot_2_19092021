@@ -11,180 +11,182 @@
 
     /*** Body Styling ***/
 
-body {
-    font-family: Raleway, sans-serif;
-    margin: 0;
-}
-
-
-/****************** Header ******************/
-
-.header {
-    display: block;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1300px;
-    margin: auto;
-}
-
-.headerLogo {
-    display: block;
-    width: auto;
-    margin-top: 40px;
-}
-
-nav {
-    margin-left: auto;
-    width: 25%;
-}
-
-nav a {
-    display: block;
-    width: 100%;
-    color: #000;
-    text-decoration: none;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-}
-
-nav li {
-    display: block;
-    border: 3px solid white;
-    /* border-style none pour avoir les bords en angles droit */
-    border-right-style: none;
-    border-left-style: none;
-    width: 50%;
-    text-align: center;
-}
-
-nav li:hover {
-    border-top-color: #0065fc;
-}
-
-nav a {
-    /* border-top 3px donc 40-3=37px pour pareil signin */
-    margin-top: 37px;
-}
-
-.navActive a {
-    color: #0065fc;
-}
-
-.signin {
-    display: block;
-    margin-right: 30px;
-    margin-left: 30px;
-    color: #0065fc;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 40px;
-}
-
-
-/****************** main ******************/
-
-main img {
-    /* Pour qu'elle soit petite lors du codage CSS Header & Footer */
-    width: 10%;
-}
-
-.fas,
-.far {
-    color: blue;
-}
-
-.firstSection {
-    width: 70%;
-    /* Espacement <li> filtres */
-}
-
-.search {
-    display: flex;
-}
-
-#locate {
-    border: 2px solid grey;
-    border-right-style: none;
-    border-radius: 10px 0 0 10px;
-}
-
-#locate .fas {
-    padding-left: 15px;
-    padding-right: 10px;
-}
-
-#locate input {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#locate ::placeholder {
-    padding-left: 10px;
-    font-weight: 800;
-    font-size: large;
-    color: black;
-}
-
-.filters ul {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    font-weight: bold;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.icoBorder {
-    padding-right: 15px;
-    border: 2px solid grey;
-    border-left: none;
-    border-radius: 20px;
-}
-
-li .fas {
-    padding: 10px;
-    border-radius: 20px;
-    background-color: rgb(167, 182, 223);
-}
-
-
-/****************** Footer ******************/
-
-.footer {
-    display: block;
-    background-color: #f2f2f2;
-}
-
-.footer_wrap {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
-    width: 80%;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer li {
-    list-style: none;
-    text-align: start;
-    line-height: 2;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
-}
+    body {
+        font-family: Raleway, sans-serif;
+        margin: 0;
+    }
+    
+    
+    /****************** Header ******************/
+    
+    .header {
+        display: block;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1300px;
+        margin: auto;
+    }
+    
+    .headerLogo {
+        display: block;
+        width: auto;
+        margin-top: 40px;
+    }
+    
+    nav {
+        margin-left: auto;
+        width: 25%;
+    }
+    
+    nav a {
+        display: block;
+        width: 100%;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+    }
+    
+    nav li {
+        display: block;
+        border: 3px solid white;
+        /* border-style none pour avoir les bords en angles droit */
+        border-right-style: none;
+        border-left-style: none;
+        width: 50%;
+        text-align: center;
+    }
+    
+    nav li:hover {
+        border-top-color: #0065fc;
+    }
+    
+    nav a {
+        /* border-top 3px donc 40-3=37px pour pareil signin */
+        margin-top: 37px;
+    }
+    
+    .navActive a {
+        color: #0065fc;
+    }
+    
+    .signin {
+        display: block;
+        margin-right: 30px;
+        margin-left: 30px;
+        color: #0065fc;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    
+    /****************** main ******************/
+    
+    main img {
+        /* Pour qu'elle soit petite lors du codage CSS Header & Footer */
+        width: 10%;
+    }
+    
+    .fas,
+    .far {
+        color: blue;
+    }
+    
+    .firstSection {
+        width: 70%;
+        /* Espacement <li> filtres */
+    }
+    
+    .search {
+        display: flex;
+    }
+    
+    #locate {
+        border: 2px solid grey;
+        border-right-style: none;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    #locate .fas {
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+    
+    #locate input {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #locate ::placeholder {
+        padding-left: 10px;
+        font-weight: 800;
+        font-size: large;
+        color: black;
+    }
+    
+    .filters ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        font-weight: bold;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .icoBorder {
+        padding-right: 15px;
+        border: 2px solid grey;
+        border-left: none;
+        border-radius: 20px;
+    }
+    
+    li .fas {
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        border-radius: 50%;
+        background-color: rgb(167, 182, 223);
+    }
+    
+    
+    /****************** Footer ******************/
+    
+    .footer {
+        display: block;
+        background-color: #f2f2f2;
+    }
+    
+    .footer_wrap {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+        width: 80%;
+    }
+    
+    footer ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    footer li {
+        list-style: none;
+        text-align: start;
+        line-height: 2;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: black;
+    }
