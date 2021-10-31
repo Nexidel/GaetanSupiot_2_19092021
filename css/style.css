@@ -1,8 +1,11 @@
 /* Remarque */
 
 
+/* Question Mentor : Icone Booki lequel prendre et pourquoi 
+                     section populaire mettre le etoiles en bas*/
+
+
 /* Color pas les bonnes mais np pour l'instant /*
-/* Filtres <li> n'arrive pas a bien cadré le cercle icone dans la border correctement /*
 
 
     /*** Body Styling ***/
@@ -12,6 +15,13 @@ body {
     margin: 0;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: auto;
+}
+
 
 /****************** Header ******************/
 
@@ -19,13 +29,6 @@ body {
     display: block;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1300px;
-    margin: auto;
 }
 
 .headerLogo {
@@ -75,7 +78,11 @@ nav a {
     color: #0065fc;
 }
 
-.signin {
+
+/* no Signin since udpate project */
+
+
+/* .signin {
     display: block;
     margin-right: 30px;
     margin-left: 30px;
@@ -84,20 +91,10 @@ nav a {
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
-}
+} */
 
 
 /****************** main ******************/
-
-main img {
-    /* Pour qu'elle soit petite lors du codage CSS Header & Footer */
-    width: 10%;
-}
-
-.fas,
-.far {
-    color: blue;
-}
 
 .firstSection {
     width: 70%;
@@ -165,10 +162,165 @@ li .fas {
     margin-right: 10px;
 }
 
-.hebergments div {
+.room {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.hebergements,
+.populaire {
+    width: 100%;
+    padding: 10px;
+    border-radius: 16px;
+    background: #f2f2f2;
+}
+
+.hebergements {
+    margin-right: 32px;
+    padding-left: 32px;
+}
+
+.titleHebergements {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.alignementhebergement {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.alignementhebergement div {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgb(229, 229, 229);
+    padding: 5px;
+    margin-bottom: 32px;
+    width: 30%;
+}
+
+.hebergements img {
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+    height: 128px;
+    width: 100%;
+}
+
+.hebergements h3 {
+    margin: 8px;
+    font-size: 100%;
+}
+
+.hebergements p {
+    margin: 8px;
+    margin-bottom: 6px;
+    font-size: 95%;
+}
+
+.hebergements span {
+    font-size: 75%;
+    margin: 8px;
+}
+
+.footerHebergement {
+    padding-bottom: 32px;
+}
+
+.blue-star {
+    color: rgb(0, 101, 252);
+}
+
+.grey-star {
+    color: #cccc;
+}
+
+.grey-star {
+    color: #cccccc;
+}
+
+
+/* *************** */
+
+.populaire {
+    width: 45%;
+    padding-left: 32px;
+}
+
+.appartementPopulaire {
+    display: flex;
+    flex-direction: column;
+}
+
+#titlePopulaire {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 32px;
+}
+
+.populaire h2 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.appartementImage {
+    border-radius: 16px;
+    box-shadow: 0 0 10px #0000002e;
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 32px;
+    background-color: #fff;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.appartDescription {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+.populaire img {
+    display: inline-block;
+    border-radius: 16px 0 0 16px;
+    height: 128px;
+    object-fit: cover;
+    width: 35%;
+    overflow: hidden;
+}
+
+.appartementImage span {
+    align-self: flex-end;
+}
+
+.populaire h3 {
+    margin: 8px;
+    font-size: 100%;
+}
+
+.populaire a {
+    color: #000;
+    text-decoration: none;
+}
+
+.populaire p {
+    margin: 8px;
+    margin-bottom: 6px;
+    font-size: 95%;
+}
+
+.chart-line-black {
+    color: #000;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.activites img {
+    width: 10%;
 }
 
 
