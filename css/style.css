@@ -18,7 +18,8 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1400px;
+    max-width: 1440px;
+    /* Width Laptop L */
     margin: auto;
 }
 
@@ -242,9 +243,6 @@ li .fas {
     color: #cccccc;
 }
 
-
-/* *************** */
-
 .populaire {
     width: 45%;
     padding-left: 32px;
@@ -320,7 +318,42 @@ li .fas {
 }
 
 .activites img {
-    width: 10%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.activitesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.activitesSingle {
+    border-radius: 16px 16px 16px 16px;
+    width: 20%;
+    box-shadow: 0 0 10px #0000002e;
+    max-height: 320px;
+    min-height: 120px;
+}
+
+#VieuxPort img,
+#Calanques img {
+    height: 256px;
+}
+
+#NotreDameGarde img,
+#Longchamp img {
+    height: 128px;
+}
+
+#Pomegues img {
+    height: 144px;
+}
+
+#Frioul img {
+    height: 112px;
 }
 
 
