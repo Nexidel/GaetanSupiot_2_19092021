@@ -1,14 +1,7 @@
 /* Remarque */
 
 
-/* Question Mentor : Icone Booki lequel prendre et pourquoi 
-                     section populaire mettre le etoiles en bas*/
-
-
-/* Color pas les bonnes mais np pour l'instant /*
-
-
-    /*** Body Styling ***/
+/*** Body Styling ***/
 
 body {
     font-family: Raleway, sans-serif;
@@ -27,7 +20,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 72px 0 48px;
+    padding: 0 56px 0 48px;
 }
 
 .headerLogo {
@@ -42,7 +35,7 @@ body {
 
 nav {
     margin-left: auto;
-    width: 25%;
+    width: 30%;
 }
 
 nav a {
@@ -103,11 +96,6 @@ nav a {
     padding: 0 48px;
 }
 
-.firstSection {
-    width: 70%;
-    /* Espacement <li> filtres */
-}
-
 #titleMain h2 {
     margin-top: 0;
 }
@@ -158,19 +146,21 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    max-width: 70%;
     font-weight: bold;
     list-style: none;
-    justify-content: space-between;
     align-items: center;
 }
 
 .icoBorder {
     display: flex;
-    padding-right: 15px;
-    border: 2px solid rgb(214, 214, 214);
+    padding-right: 24px;
+    border: 3px solid rgb(214, 214, 214);
     align-items: center;
+    justify-content: space-between;
     border-left: none;
     border-radius: 50px;
+    margin-left: 24px;
 }
 
 li .fas {
@@ -192,6 +182,20 @@ li .fas {
     display: flex;
     align-items: center;
     margin: 24px 0 24px 0;
+}
+
+.logementsDispo .fas {
+    display: flex;
+    padding: 4;
+    margin-right: 12px;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 20px;
+    min-width: 20px;
+    font-size: 80%;
+    color: rgb(0, 101, 252);
 }
 
 .room {
@@ -301,8 +305,8 @@ li .fas {
 .appartementImage {
     border-radius: 16px;
     box-shadow: 0 0 10px #0000002e;
-    padding: 5px;
-    margin: 30px 0 0 0;
+    padding: 5px 0 1px 5px;
+    margin-top: 30px;
     background-color: #fff;
     justify-content: center;
 }
@@ -332,7 +336,7 @@ li .fas {
 }
 
 .populaire p {
-    margin: 8px 0 40px 16px;
+    margin: 8px 0 16px 16px;
     font-size: 95%;
 }
 
@@ -357,7 +361,8 @@ li .fas {
 }
 
 .activites h3 {
-    margin: 24px;
+    margin: 16px;
+    font-size: 90%;
 }
 
 .activites img {
@@ -380,23 +385,20 @@ li .fas {
 
 #activitesCol1 img,
 #activitesCol3 img {
-    height: 500px;
+    height: 350px;
 }
 
 #activite2 img {
-    height: 230px;
+    height: 145px;
 }
 
 #activite3 img {
-    height: 150px;
+    height: 105px;
 }
 
-#activite5 img {
-    height: 190px;
-}
-
+#activite5 img,
 #activite6 img {
-    height: 190px;
+    height: 125px;
 }
 
 #activite2,
@@ -427,7 +429,7 @@ li .fas {
 .footer_wrap {
     display: flex;
     justify-content: space-between;
-    padding: 48px 0 0 48px;
+    padding: 48px 0 48px 48px;
     width: 70%;
 }
 
