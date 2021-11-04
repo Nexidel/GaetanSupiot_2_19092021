@@ -309,6 +309,7 @@ li .fas {
     margin-top: 30px;
     background-color: #fff;
     justify-content: center;
+    position: relative;
 }
 
 .appartDescription {
@@ -343,6 +344,8 @@ li .fas {
 .populaire span {
     font-size: 75%;
     margin-left: 16px;
+    position: absolute;
+    bottom: 12px;
 }
 
 .populaire a {
