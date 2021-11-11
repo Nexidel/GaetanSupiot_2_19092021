@@ -1,0 +1,105 @@
+html {
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.header {
+    display: block;
+}
+
+.headerLogo {
+    margin-bottom: 32px;
+}
+
+.headerLogo img {
+    width: 15%;
+}
+
+nav {
+    width: 100%;
+    justify-content: center;
+}
+
+nav ul {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+nav li {
+    margin-left: 48px;
+    margin-right: 48px;
+    font-size: larger;
+    border: 3px solid white;
+    border-bottom-color: #F2F2F2;
+    border-top: white;
+}
+
+nav a {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.navActive {
+    border-bottom-color: #0065fc !important;
+}
+
+.titleMain {
+    margin-top: 32px;
+}
+
+.search input {
+    padding-right: 72px
+}
+
+.filters ul {
+    max-width: 100%;
+}
+
+.room {
+    flex-wrap: wrap;
+}
+
+.room section {
+    margin-bottom: 24px;
+}
+
+.populaire {
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.hebergements {
+    order: 2;
+    width: 100%;
+    margin-right: 0;
+}
+
+.activites {
+    padding-bottom: 48px;
+}
+
+.activitesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.activitesColonne {
+    width: 48%;
+}
+
+#activitesCol1,
+#activitesCol2,
+#activitesCol3 {
+    padding-right: 0;
+}
+
+#activite1,
+#activite3 {
+    margin-bottom: 32px;
+}
