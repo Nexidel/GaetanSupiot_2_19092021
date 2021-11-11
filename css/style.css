@@ -30,7 +30,7 @@ body {
 }
 
 .headerLogo img {
-    width: 8%;
+    width: 10%;
 }
 
 nav {
@@ -104,7 +104,7 @@ nav a {
     padding: 0 48px;
 }
 
-#titleMain h2 {
+.titleMain h2 {
     margin-top: 0;
 }
 
@@ -406,7 +406,7 @@ li .fas {
 
 .activites h3 {
     margin: 16px;
-    font-size: 90%;
+    font-weight: 900;
 }
 
 .activites img {
