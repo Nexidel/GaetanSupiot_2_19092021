@@ -48,6 +48,7 @@ nav a {
 nav ul {
     display: flex;
     list-style: none;
+    padding: 0;
     margin: 0;
 }
 
@@ -150,26 +151,36 @@ nav a {
     padding: 0 16px 0 16px;
 }
 
+.filters {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.titleFilters {
+    margin-right: 24px;
+}
+
 .filters ul {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    max-width: 70%;
+    max-width: 100%;
     font-weight: bold;
     list-style: none;
-    align-items: center;
+    align-content: center;
 }
 
 .icoBorder {
     display: flex;
-    padding-right: 24px;
+    padding-right: 20px;
     border: 2px solid rgb(214, 214, 214);
     align-items: center;
     justify-content: space-between;
     border-left: none;
     border-radius: 50px;
-    margin-left: 24px;
-    margin-bottom: 8px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
@@ -401,7 +412,7 @@ li .fas {
 }
 
 .activites {
-    padding-bottom: 64px;
+    padding-bottom: 40px;
 }
 
 .activites h3 {
@@ -473,12 +484,15 @@ li .fas {
 .footer_wrap {
     display: flex;
     justify-content: space-between;
-    padding: 48px 0 48px 48px;
-    width: 70%;
 }
 
 .footer_wrap h3 {
     margin-top: 0;
+}
+
+.footer_wrap div {
+    padding: 48px 0 48px 48px;
+    width: 100%;
 }
 
 footer ul {
