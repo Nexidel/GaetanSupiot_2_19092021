@@ -9,16 +9,12 @@ body {
     width: 100%;
 }
 
-.header {
-    display: block;
-}
-
 .headerLogo {
     margin-bottom: 32px;
 }
 
 .headerLogo img {
-    width: 15%;
+    width: 150px
 }
 
 nav {
@@ -41,7 +37,7 @@ nav li {
 }
 
 nav a {
-    margin-top: 0;
+    margin-top: 48px;
     margin-bottom: 16px;
 }
 
@@ -57,8 +53,12 @@ nav a {
     padding-right: 72px
 }
 
-.filters ul {
-    max-width: 100%;
+.filters {
+    display: block;
+}
+
+.filters div {
+    display: block;
 }
 
 .room {
@@ -78,10 +78,6 @@ nav a {
     order: 2;
     width: 100%;
     margin-right: 0;
-}
-
-.activites {
-    padding-bottom: 48px;
 }
 
 .activitesContainer {
