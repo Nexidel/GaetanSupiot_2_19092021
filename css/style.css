@@ -170,6 +170,12 @@ nav a {
     border-radius: 50px;
     margin-left: 24px;
     margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.icoBorder:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 li .fas {
@@ -245,6 +251,21 @@ li .fas {
     padding: 5px;
     margin-bottom: 32px;
     width: 30%;
+}
+
+.alignementhebergement div:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.appartementPopulaire div:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.activitesSingle:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
 }
 
 .hebergements img {
@@ -358,7 +379,17 @@ li .fas {
     bottom: 12px;
 }
 
+.hebergements a {
+    color: #000;
+    text-decoration: none;
+}
+
 .populaire a {
+    color: #000;
+    text-decoration: none;
+}
+
+.activites a {
     color: #000;
     text-decoration: none;
 }
