@@ -174,7 +174,7 @@ nav a {
 
 .icoBorder {
     display: flex;
-    padding-right: 20px;
+    padding-right: 16px;
     border: 2px solid rgb(214, 214, 214);
     align-items: center;
     justify-content: space-between;
@@ -268,7 +268,7 @@ li .fas {
     transform: scale(1.05);
 }
 
-.appartementPopulaire div:hover {
+.appartementImage:hover {
     transition: 0.3s;
     transform: scale(1.05);
 }
@@ -382,7 +382,7 @@ li .fas {
     font-size: 95%;
 }
 
-.populaire span {
+.appartDescription span {
     font-size: 75%;
     margin-left: 16px;
     position: absolute;
