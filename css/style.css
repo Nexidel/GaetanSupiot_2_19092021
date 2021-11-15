@@ -72,7 +72,7 @@ nav li {
 
 nav a {
     /* border-top 3px donc 40-3=37px pour pareil signin */
-    margin-top: 37px;
+    padding-top: 37px;
 }
 
 .navActive a {
