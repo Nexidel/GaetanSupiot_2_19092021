@@ -1,3 +1,8 @@
+body {
+    font-size: large;
+    font-weight: bolder;
+}
+
 .header,
 .mainContainer {
     padding: 0;
@@ -39,8 +44,16 @@ nav li {
     border-bottom: 3px solid #0065FC;
 }
 
+.firstSection {
+    padding: 0 48px 0 48px;
+}
+
+.firstSection p {
+    margin-top: 0;
+}
+
 .titleMain {
-    margin-top: 16px;
+    margin-top: 32px;
 }
 
 .search {
@@ -110,6 +123,12 @@ nav li {
     margin-bottom: 32px;
 }
 
+#activitesCol1,
+#activitesCol2,
+#activitesCol3 {
+    padding-right: 0;
+}
+
 .footer_wrap {
     flex-direction: column;
 }
@@ -117,4 +136,5 @@ nav li {
 .footer_wrap div {
     padding-top: 24px;
     padding-bottom: 0;
+    width: 60%;
 }
