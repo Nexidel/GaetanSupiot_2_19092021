@@ -45,7 +45,7 @@ nav li {
 }
 
 .firstSection {
-    padding: 0 48px 0 48px;
+    padding: 0 40px 0 40px;
 }
 
 .firstSection p {
@@ -58,6 +58,11 @@ nav li {
 
 .search {
     justify-content: center;
+    max-width: 100%;
+}
+
+.search input {
+    padding-right: 0;
 }
 
 .filters {
