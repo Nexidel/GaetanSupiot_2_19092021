@@ -1,12 +1,10 @@
 html {
-    font-family: "Raleway", sans-serif;
-    width: 100%;
+    font-family: Raleway, sans-serif;
 }
 
 body {
     margin: 0;
     box-sizing: border-box;
-    width: 100%;
 }
 
 .headerLogo {
@@ -28,8 +26,10 @@ nav ul {
 }
 
 nav li {
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
     font-size: larger;
     border: 3px solid white;
     border-bottom-color: #F2F2F2;
@@ -54,10 +54,6 @@ nav a {
 }
 
 .filters {
-    display: block;
-}
-
-.filters div {
     display: block;
 }
 
