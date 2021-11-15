@@ -175,6 +175,7 @@ nav a {
 .icoBorder {
     display: flex;
     padding-right: 16px;
+    margin-bottom: 12px;
     border: 2px solid rgb(214, 214, 214);
     align-items: center;
     justify-content: space-between;
@@ -207,7 +208,7 @@ li .fas {
 .logementsDispo {
     display: flex;
     align-items: center;
-    margin: 12px 0 24px 0;
+    margin-bottom: 24px;
 }
 
 .logementsDispo .fas {
