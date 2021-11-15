@@ -1,0 +1,120 @@
+.header,
+.mainContainer {
+    padding: 0;
+}
+
+.header {
+    display: block;
+}
+
+.headerLogo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.headerLogo img {
+    width: 40%;
+}
+
+.headerLogo a {
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+nav li {
+    border-top: none;
+    border-bottom: 3px solid #F2F2F2;
+}
+
+.navActive {
+    border-bottom: 3px solid #0065FC;
+}
+
+.titleMain {
+    margin-top: 16px;
+}
+
+.search {
+    justify-content: center;
+}
+
+.filters {
+    display: block;
+}
+
+.room {
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+.populaire {
+    width: 100%;
+    padding-bottom: 32px;
+    border-radius: 0;
+}
+
+.hebergements {
+    order: 2;
+    width: 100%;
+    margin-right: 0;
+    background: none;
+}
+
+.hebergements div {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.hebergements h3 {
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.activites {
+    padding: 0 32px 0 32px;
+}
+
+.activitesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.activitesColonne {
+    width: 100%;
+}
+
+#activite1 img,
+#activite2 img,
+#activite3 img,
+#activite4 img,
+#activite5 img,
+#activite6 img {
+    height: 200px;
+}
+
+#activite1,
+#activite2,
+#activite3,
+#activite4,
+#activite5,
+#activite6 {
+    margin-bottom: 32px;
+}
+
+.footer_wrap {
+    flex-direction: column;
+}
+
+.footer_wrap div {
+    padding-top: 24px;
+    padding-bottom: 0;
+}
