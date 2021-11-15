@@ -50,7 +50,7 @@ nav a {
 }
 
 .search input {
-    padding-right: 72px
+    width: 25%;
 }
 
 .filters {
