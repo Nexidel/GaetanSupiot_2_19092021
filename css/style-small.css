@@ -3,6 +3,10 @@ body {
     font-weight: bolder;
 }
 
+.container {
+    min-width: 470px;
+}
+
 .header,
 .mainContainer {
     padding: 0;
